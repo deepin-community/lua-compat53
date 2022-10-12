@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/lua-compat53-$1\.tar\.gz/ \
+  https://github.com/keplerproject/lua-compat-5.3/tags .*/v?(\d\S*)\.tar\.gz

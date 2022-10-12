@@ -1,0 +1,44 @@
+lua-compat53 (0.7-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- James McCoy <jamessan@debian.org>  Mon, 28 Oct 2019 23:42:31 -0400
+
+lua-compat53 (0.7-1) experimental; urgency=medium
+
+  [ Jason Pleau ]
+  * New upstream release
+  * debian/watch: fix typo in orig tarball filename
+  * Bump debhelper compat to 11
+  * Update Vcs-* fields to use salsa.debian.org
+  * Add myself to Uploaders and debian/copyright
+
+  [ James McCoy ]
+  * Install compat-5.3.{c,h} to /usr/include/lua5.x/ (Closes: #846602)
+    This only supports including compat-5.3.h without "#define
+    COMPAT53_PREFIX", i.e. a static build.
+  * Stop installing compat-5.3.{c,h} under
+    /usr/share/doc/lua-compat53/examples
+  * Add myself to Uploaders and debian/copyright
+  * control: Add Rules-Requires-Root: no
+
+ -- James McCoy <jamessan@debian.org>  Tue, 22 Oct 2019 22:38:41 -0400
+
+lua-compat53 (0.3-3) unstable; urgency=medium
+
+  * Clarify copyright on c-api/compat-5.3.c (parts come from Lua source code)
+  * Add debian/watch for upstream github repository
+
+ -- Ondřej Surý <ondrej@debian.org>  Thu, 14 Jul 2016 09:19:41 +0200
+
+lua-compat53 (0.3-2) unstable; urgency=medium
+
+  * Use correct Vcs-Browser URL
+
+ -- Ondřej Surý <ondrej@debian.org>  Wed, 13 Jul 2016 14:43:28 +0200
+
+lua-compat53 (0.3-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Ondřej Surý <ondrej@debian.org>  Tue, 12 Jul 2016 16:41:44 +0200

@@ -1,0 +1,2 @@
+include @@TEMPLATE@@/dev.install.in
+c-api/* /usr/include/lua@@LUA_VERSION@@/
